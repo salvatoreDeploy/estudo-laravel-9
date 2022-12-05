@@ -20,7 +20,7 @@
         <input type="email" name="email" placeholder="E-mail:" value="{{ old('email') }}">
         <input type="password" name="password" placeholder="Password:" value="{{ old('password') }}">
         <button type="submit">Enviar</button>
-
+        <a href="{{ route('users.index') }}">Voltar</a>
     </form>
 
 @endsection

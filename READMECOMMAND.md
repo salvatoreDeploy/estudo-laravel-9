@@ -6,3 +6,4 @@
 - php artisan migrate
 - php artisan make:seeder 'nome do seeder'
 - php artisan db:seed
+- php artisan make:request 'nome do form request'
